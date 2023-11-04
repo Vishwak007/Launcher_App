@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Launcher_App" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Launcher_App" parent="Base.Theme.Launcher_App" />
+    <!-- this is them theme -->
+    <style name="Wallpaper" parent="@style/Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground"> @android:color/transparent</item>
+        <item name="android:windowShowWallpaper"> true</item>
+        <item name="android:navigationBarColor"> @color/white</item>
+        <item name="colorPrimaryDark"> @color/white</item>
+    </style>
+</resources>
